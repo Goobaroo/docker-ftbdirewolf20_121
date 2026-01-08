@@ -2,7 +2,7 @@
 
 FROM eclipse-temurin:21-jdk
 
-LABEL version="1.14.2"
+LABEL version="1.15.0"
 LABEL homepage.group=Minecraft
 LABEL homepage.name="FTB Presents Direwolf20 1.21"
 LABEL homepage.icon="https://cdn.feed-the-beast.com/blob/d9/d9e1ac17b1232176575ee10154dddea0110a26cc2f048c461a1ef288931624c5.png"
@@ -23,7 +23,7 @@ WORKDIR /data
 
 EXPOSE 25565/tcp
 
-ENV MOTD="FTB Presents Direwolf20 1.21 v1.14.2 Server Powered by Docker"
+ENV MOTD="FTB Presents Direwolf20 1.21 v1.15.0 Server Powered by Docker"
 ENV LEVEL=world
 ENV JVM_OPTS="-Xms4096m -Xmx6144m"
 
